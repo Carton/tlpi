@@ -1,5 +1,8 @@
 # Makefile.inc - common definitions used by all makefiles
 
+CC = droid-gcc
+LIB = -lcutils
+
 TLPI_DIR = ..
 TLPI_LIB = ${TLPI_DIR}/libtlpi.a
 TLPI_INCL_DIR = ${TLPI_DIR}/lib
